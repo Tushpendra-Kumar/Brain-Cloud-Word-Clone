@@ -1,0 +1,30 @@
+#thoughts {
+    height: 100vh;
+    width: 100vw;
+    background-color: #454545;
+    background: radial-gradient(#656565, #323232);
+    text-align: center;
+  }
+  
+  p {
+    position: absolute;
+    margin: 0;
+    font-size: 3rem;
+    font-family: 'Rowdies', cursive;
+    color: rgba(45,45,45,0.8);
+    filter: blur(8px);
+    transition: filter 2s ease, color 2s ease, top 5s ease, left 5s ease;
+    transform: translateX(-50%);
+    top: calc(50% - 1ex);
+    left: 50%;
+  }
+  
+  p:hover{
+    filter: blur(1px);
+    color: rgba(220, 220, 220, 0.6);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
